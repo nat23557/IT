@@ -42,7 +42,15 @@
             width: 100%;
         }
     </style>
-    
+    <script>
+        // JavaScript code to toggle dark mode
+        const body = document.body;
+        const darkModeButton = document.getElementById('dark-mode-toggle');
+
+        darkModeButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
 </head>
 <body style="background-color: black;">
     <!-- Navigation Menu -->
